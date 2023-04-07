@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8" >
+  <meta name="description" content="ejemplos de desarrollo web" >
+  <title>Ejercicios</title>
+</head>
+<body>
+    <h2>HTML Formulario</h2>
+    <form method="post" action="" name="form1" id="id_formulario1" >
+        <label for="id_apellido">Apellido</label>
+        <input type="text" name="apellido" id="id_apellido" value="">
+
+        <label for="id_nombre">Nombre</label>
+        <input type="text" name="nombre" id="id_nombre" value="">
+
+        <label for="id_edad">Edad</label>
+        <input type="text" name="edad" id="id_edad" value="">
+
+    <br><br> <label>Sexo:</label>
+    <select name="sexo" id="id_sexo">
+        <option value="9420" selected >seleccionar</option>
+        <option value="4000" >Masculino</option>
+        <option value="4700" >Femenino</option>
+        <option value="1907" >Otro</option>
+
+ 
+    <input type="radio" name="rango_edad" value="menor_18">
+    <label>Menor de 18</label>
+    <input type="radio" name="rango_edad" value="mayor18" checked>
+    <label>Mayor de 18</label>
+   <br><br>
+   <label>Movilidad:</label>
+   <input type="checkbox" name="vect_movilidad[]" value="Auto">
+   <label>Auto</label>
+   <input type="checkbox" name="vect_movilidad[]" value="Camioneta">
+   <label>Camioneta</label>
+   <input type="checkbox" name="vect_movilidad[]" value="Camion">
+   <label>Camion</label>
+   <input type="checkbox" name="vect_movilidad[]" value="moto">
+   <label>Moto</label>
+   
+    <br><br><label>Idiomas:</label>
+    <select name="cmb_idiomas" id="id_cmb_idiomas" multiple>
+      <option value="1" >Inglés</option>
+      <option value="2" >Francés</option>
+      <option value="3" >Alemán</option>
+      <option value="4" >Holandés</option>
+    </select>
+      <br><br><label>Comentario:</label>
+      <textarea name="comentario" rows="5" cols="30">
+
+      </textarea>
+
+      <br><br>
+      <input type="submit" name="botonAceptar" id="id_aceptar" value="Enviar Datos" >
+    <input type="button" name="botonCancelar" id="id_cancelar" value="Borrar Datos" >
+    </form>
+   
+</body>
+</html>
